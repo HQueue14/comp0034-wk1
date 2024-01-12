@@ -3,4 +3,8 @@
 {% block content %}
  <h1>Paralympics App</h1>
     <p>Hello _name_ and welcome to my paralympics app</p>
+    <form action="{{ url_for('index') }}" method="post">
+        <label for="name">Enter your name:</label>
+        <input type="text" name="name" id="name" placeholder="Enter your name">
+        <input type="submit" value="Submit">
 {% endblock %}
