@@ -14,3 +14,5 @@ def index():
     # The function renders a Jinja2 template that generates the home page using HTML and bootstrap CSS
     return render_template('index.html')
 
+if __name__ == '__main__':
+    app.run(debug=True)

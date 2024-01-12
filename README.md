@@ -117,7 +117,7 @@ message.
 You can give the python file any name except for flask.py (calling it `flask.py` would conflict with Flask itself.).
 
 > Challenge: try and add a variable route that allows the user to enter their name and a personalised homepage message
-> e.g. 'Hello _name_ and welcome to my paralympics app'.
+> e.g. 'Hello _name_ and welcome to my paralympics app'. 
 >
 > See Flask documentation:
 > - [HTML escaping](https://flask.palletsprojects.com/en/2.3.x/quickstart/#html-escaping)
